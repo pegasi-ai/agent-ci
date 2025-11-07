@@ -1,4 +1,4 @@
-# 🛡️ Pegasi Shield 
+# 🔁 Agent CI 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -8,15 +8,17 @@
 
 ![plot](./static/images/pegasi_shield.png)
 
-*A lightweight safety and reliability layer for large‑language‑model (LLM) applications.*
+**Agent CI** is the continuous improvement layer for AI agents and LLM applications.
 
 ---
 
 ## Overview
 
-Pegasi Shield sits between your application and any LLM (OpenAI, Claude, local models, etc.).  
-It inspects every prompt and response, blocks or edits unsafe content, and logs decisions for auditing—all with minimal latency and no data egress.
+Agent CI runs alongside your agent or application in production. It observes decisions, scores outcomes, and applies targeted improvements - so the system learns and performs better over time.
 
+Instead of manually rewriting prompts or fine-tuning models after failures, Agent CI creates a feedback and optimization loop that continuously adjusts reasoning, planning, and tool usage behavior.
+
+Deploy once. The agent keeps improving.
 <a href="https://colab.research.google.com/drive/17Dq4ClbxI-AIjpQM2MxiLeoLnmfxTqrR?usp=sharing"
    target="_blank" rel="noopener noreferrer">
   <img src="https://colab.research.google.com/assets/colab-badge.svg"
